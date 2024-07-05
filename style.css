@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "AkzidGroLigOsF";
+  src: local("AkzidGroLigOsF"),
+    url("./assets/font/AkzidGroLigOsF.ttf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "akzidenz-grotesk-next";
+  src: local("akzidenz-grotesk-next"),
+    url(./fonts/akzidenz-grotesk-next/AkzidGroLigOsF.ttf) format("opentype");
+}
+
+body{
+  margin: 0;
+  overflow-y: hidden;
+}
+
+canvas {
+  display: block;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#buttonDiv {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom:  25vh;
+}
+
+.buttonPlay {
+  background: none;
+  color: white;
+  font-size: 25px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.buttonPlay:hover {
+  text-decoration: underline;
+}
+
+.menu-geral {
+  width: 100vw;
+  height: 12vh;
+  position: fixed;
+  background-color: transparent;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0;
+a {
+  h1{color: white;}
+}
+}
+
+.menu-massaia {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 2rem;
+  font-family: "AkzidGroLigOsF";
+  font-size: 2.8vw;
+  font-weight: normal;
+}
